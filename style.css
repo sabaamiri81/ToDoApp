@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  margin: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(purple), to(pink));
+  background-image: linear-gradient(purple, pink);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main {
+  height: 600px;
+  width: 450px;
+  border-radius: 15px;
+  background-color: rgb(232, 193, 232);
+  -webkit-box-shadow: 0px 60px 100px rgb(203, 122, 203);
+          box-shadow: 0px 60px 100px rgb(203, 122, 203);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.input {
+  background-color: rgba(255, 251, 251, 0.4);
+  border-color: transparent;
+  outline: none;
+  border-radius: 15px;
+  width: 400px;
+  height: 75px;
+  font-size: xx-large;
+  font-style: italic;
+}
+.input::-webkit-input-placeholder {
+  color: rgb(170, 161, 161);
+  font-size: xx-large;
+}
+.input::-moz-placeholder {
+  color: rgb(170, 161, 161);
+  font-size: xx-large;
+}
+.input:-ms-input-placeholder {
+  color: rgb(170, 161, 161);
+  font-size: xx-large;
+}
+.input::-ms-input-placeholder {
+  color: rgb(170, 161, 161);
+  font-size: xx-large;
+}
+.input::placeholder {
+  color: rgb(170, 161, 161);
+  font-size: xx-large;
+}
+
+.text {
+  width: 400px;
+  height: 430px;
+  border-radius: 15px;
+  background-color: rgba(255, 251, 251, 0.4);
+}
+.text__list {
+  margin-bottom: 10px;
+  font-size: larger;
+}
+.text__btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid rgb(170, 161, 161);
+}
+.text__btn--done {
+  background-color: purple;
+  border: none;
+}
+.text__list {
+  list-style-type: none;
+}
+
+.footer {
+  width: 400px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__counter {
+  color: purple;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
